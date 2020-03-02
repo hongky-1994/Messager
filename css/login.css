@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 13;
+    box-sizing: border-box;
+}
+.background{
+    display: flex;
+    height: 100vh;
+    background: url(../img/background.jpg) center center no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.form-login, .form-sign-up{
+    border-radius: 15px;
+    width: 400px;
+    min-height: 200px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all .5s ease;
+    overflow: hidden;
+    opacity: 0;
+}
+.form-sign-up{
+    width: 0px;
+}
+.form-login{
+    opacity: 100%; 
+}
+
+.form-header{
+    padding: 30px;
+}
+.form-header>h3{
+    font-size: 32px;
+    white-space: nowrap;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 35px;
+    width: 100%;
+}
+.input-wrapper{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.input-wrapper>input{
+    height: 28px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #8f8f8f;
+    padding: 15px;
+}
+.form-footer{
+    display: flex;
+    padding: 0 35px 20px 35px;
+    width: 100%;
+    justify-content: space-between;
+}
+.form-footer>a{
+    text-decoration: none;
+    color: #000000;
+}
+.form-footer>a:hover{
+    text-decoration: underline;
+    color: chocolate;
+    cursor: pointer;
+}
+.hide{
+    display: none; 
+}
+.form-footer>button{
+    padding: 10px 20px;
+    background-color: #4886FA;
+    border-radius: 5px;
+    border: 1px solid #4886fa;
+    color: #f2f2f2;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.form-footer>button:hover{
+    border: 1px solid #4886fa;
+    color: #4886fa;
+    background-color: transparent;
+}
+
